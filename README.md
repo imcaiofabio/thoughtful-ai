@@ -28,5 +28,5 @@ print(sort(30, 40, 50, 10))    # "STANDARD"
 ## Running Tests
 Run the test suite using:
 ```sh
-python3 -m unittest tests.py
+python -m unittest tests.py
 ```
