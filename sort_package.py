@@ -1,4 +1,4 @@
-def sort(width: float, height: float, length: float, mass: float) -> str:
+def sort(width, height, length, mass):
     volume = width * height * length
     is_bulky = volume >= 1_000_000 or max(width, height, length) >= 150
 
